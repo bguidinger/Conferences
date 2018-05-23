@@ -1,0 +1,15 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomControls>
+    <CustomControl>
+      <Name>Manifest0.xml</Name>
+      <FileName>/Controls/FieldControl/ControlManifest.xml</FileName>
+    </CustomControl>
+    <CustomControl>
+      <Name>Manifest1.xml</Name>
+      <FileName>/Controls/GridControl/ControlManifest.xml</FileName>
+    </CustomControl>
+  </CustomControls>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>

@@ -1,0 +1,13 @@
+<manifest>
+  <control namespace="Focus2018" constructor="GridControl" version="1.0.0" control-type="virtual" display-name-key="CC_GridControl_Name" description-key="CC_GridControl_Desc">
+    <modes>
+      <read />
+      <edit />
+    </modes>
+    <data-set name="Grid" display-name-key="CC_Grid_DSGrid" editable="true"></data-set>
+    <resources>
+      <code path="GridControl.js" order="1" />
+      <resx path="strings/GridControl.1033.resx" version="1.0.0" />
+    </resources>
+  </control>
+</manifest>

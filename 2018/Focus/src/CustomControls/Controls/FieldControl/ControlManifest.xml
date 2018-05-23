@@ -1,0 +1,27 @@
+<manifest>
+  <control namespace="Focus2018" constructor="FieldControl" version="1.0.0" control-type="virtual" display-name-key="CC_FieldControl_Name" description-key="CC_FieldControl_Desc">
+    <modes>
+      <read />
+      <edit />
+    </modes>
+	<type-group name="SingleLines">
+	  <type>SingleLine.Text</type>
+      <type>SingleLine.TextArea</type>
+      <type>SingleLine.Email</type>
+      <type>SingleLine.URL</type>
+      <type>SingleLine.Ticker</type>
+      <type>SingleLine.Phone</type>
+	</type-group>
+    <property name="value" display-name-key="CC_Value" description-key="CC_Value_Desc" of-type-group="SingleLines" usage="bound" required="true" hidden="true" />
+	<property name="color" display-name-key="CC_Color" description-key="CC_Color_Desc" of-type="SingleLine.Text" usage="input" required="true" hidden="false" />
+    <AvailableOn>
+      <web classic="disable" />
+      <phone />
+      <tablet />
+    </AvailableOn>
+    <resources>
+      <code path="FieldControl.js" order="1" />
+	  <resx path="strings/FieldControl.1033.resx" version="1.0.0" />
+    </resources>
+  </control>
+</manifest>
